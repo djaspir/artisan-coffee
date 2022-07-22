@@ -124,7 +124,7 @@ a:hover,
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #603601;
+    background-color: #1C0A00;
     height: 500px;
 }
 
@@ -173,4 +173,11 @@ a:hover,
 
 .contact-btn {
     flex-shrink: 0;
+}
+
+.footer {
+    background-color: #1C0A00;
+    padding: 32px;
+    text-align: center;
+    color: #1da730;
 }

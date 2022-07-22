@@ -55,6 +55,7 @@ a:hover,
 .hero-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 32px;
     gap: 56px;
@@ -84,4 +85,58 @@ a:hover,
     font-size: 16px;
     padding: 10px 16px;
     border-radius: 10px;
+}
+
+.info {
+    background-color: #CC9544;
+    padding: 34px;
+}
+
+.info-title {
+    margin: 0 0 24px 0;
+    text-align: center;
+    font-size: 26px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.card {
+    text-align: center;
+    width: 200px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #603601;
+    height: 500px;
+}
+
+.quote-content {
+    margin: 0;
+    width: 700px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.quote-author {
+    color: #CC9544;
+    margin-right: auto;
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 24px;
 }
